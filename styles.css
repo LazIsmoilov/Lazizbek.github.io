@@ -1,0 +1,143 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+/* Fixed Header Styling */
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px; /* Set a fixed height for the header */
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0; /* A light, neutral background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-header,
+.right-header {
+    display: flex;
+    align-items: center;
+}
+
+/* Browser Dots */
+.browser-dots {
+    display: flex;
+    gap: 6px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #6a0dad;
+}
+
+/* Navigation Links */
+.nav-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #6a0dad;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #5a009c;
+}
+
+/* Main Content Container */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Add top padding to ensure content is visible below the fixed header */
+    padding-top: 80px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/* Intro Section */
+.intro-section {
+    margin-top: 20px;
+}
+
+/* Profile Name and Title */
+.profile-name {
+    font-size: 2.5em;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Logo Section */
+.logo-section {
+    margin-bottom: 20px;
+}
+
+.logo-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Professional Summary Section */
+.info-section {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.info-section p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Download CV Button */
+.download-btn {
+    background-color: #6a0dad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #5a009c;
+}
+
+/* Section Styles: Skills, Projects, and Contact */
+section {
+    width: 100%;
+    max-width: 800px;
+    margin: 40px 0;
+    padding: 0 20px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+
